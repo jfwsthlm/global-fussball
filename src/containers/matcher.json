@@ -1,0 +1,2403 @@
+{"games": [
+   {
+       "round": "1",
+       "time": "lördag 2 april",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "1",
+       "time": "lördag 2 april",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "1",
+       "time": "söndag 3 april",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "1",
+       "time": "söndag 3 april",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "1",
+       "time": "söndag 3 april",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "1",
+       "time": "söndag 3 april",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "1",
+       "time": "måndag 4 april",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "1",
+       "time": "måndag 4 april",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "2",
+       "time": "lördag 9 april",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "2",
+       "time": "lördag 9 april",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "2",
+       "time": "söndag 10 april",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "2",
+       "time": "söndag 10 april",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "2",
+       "time": "söndag 10 april",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "2",
+       "time": "söndag 10 april",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "2",
+       "time": "måndag 11 april",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "2",
+       "time": "måndag 11 april",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "3",
+       "time": "fredag 15 april",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "3",
+       "time": "lördag 16 april",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "3",
+       "time": "lördag 16 april",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "3",
+       "time": "söndag 17 april",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "3",
+       "time": "söndag 17 april",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "3",
+       "time": "söndag 17 april",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "3",
+       "time": "söndag 17 april",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "3",
+       "time": "söndag 17 april",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "4",
+       "time": "onsdag 20 april",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "4",
+       "time": "onsdag 20 april",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "4",
+       "time": "onsdag 20 april",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "4",
+       "time": "onsdag 20 april",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "4",
+       "time": "onsdag 20 april",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "4",
+       "time": "torsdag 21 april",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "4",
+       "time": "torsdag 21 april",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "4",
+       "time": "torsdag 21 april",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "5",
+       "time": "söndag 24 april",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "5",
+       "time": "söndag 24 april",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "5",
+       "time": "söndag 24 april",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "5",
+       "time": "måndag 25 april",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "5",
+       "time": "måndag 25 april",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "5",
+       "time": "måndag 25 april",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "5",
+       "time": "måndag 25 april",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "5",
+       "time": "tisdag 26 april",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "6",
+       "time": "lördag 30 april",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "6",
+       "time": "söndag 1 maj",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "6",
+       "time": "söndag 1 maj",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "6",
+       "time": "söndag 1 maj",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "6",
+       "time": "söndag 1 maj",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "6",
+       "time": "måndag 2 maj",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "6",
+       "time": "måndag 2 maj",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "6",
+       "time": "måndag 2 maj",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "7",
+       "time": "lördag 7 maj",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "7",
+       "time": "lördag 7 maj",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "7",
+       "time": "söndag 8 maj",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "7",
+       "time": "söndag 8 maj",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "7",
+       "time": "måndag 9 maj",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "7",
+       "time": "måndag 9 maj",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "7",
+       "time": "måndag 9 maj",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "7",
+       "time": "måndag 9 maj",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "8",
+       "time": "lördag 14 maj",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "8",
+       "time": "lördag 14 maj",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "8",
+       "time": "söndag 15 maj",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "8",
+       "time": "söndag 15 maj",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "8",
+       "time": "söndag 15 maj",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "8",
+       "time": "söndag 15 maj",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "8",
+       "time": "söndag 15 maj",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "8",
+       "time": "måndag 16 maj",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "9",
+       "time": "lördag 21 maj",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "9",
+       "time": "lördag 21 maj",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "9",
+       "time": "söndag 22 maj",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "9",
+       "time": "söndag 22 maj",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "9",
+       "time": "söndag 22 maj",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "9",
+       "time": "söndag 22 maj",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "9",
+       "time": "måndag 23 maj",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "9",
+       "time": "måndag 23 maj",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "10",
+       "time": "lördag 28 maj",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "10",
+       "time": "lördag 28 maj",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "10",
+       "time": "lördag 28 maj",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "10",
+       "time": "söndag 29 maj",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "10",
+       "time": "söndag 29 maj",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "10",
+       "time": "söndag 29 maj",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "10",
+       "time": "söndag 29 maj",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "10",
+       "time": "söndag 29 maj",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "11",
+       "time": "lördag 25 juni",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "11",
+       "time": "lördag 25 juni",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "11",
+       "time": "lördag 25 juni",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "11",
+       "time": "lördag 25 juni",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "11",
+       "time": "lördag 25 juni",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "11",
+       "time": "lördag 25 juni",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "11",
+       "time": "lördag 25 juni",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "11",
+       "time": "lördag 25 juni",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "12",
+       "time": "lördag 2 juli",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "12",
+       "time": "lördag 2 juli",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "12",
+       "time": "lördag 2 juli",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "12",
+       "time": "lördag 2 juli",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "12",
+       "time": "lördag 2 juli",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "12",
+       "time": "lördag 2 juli",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "12",
+       "time": "lördag 2 juli",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "12",
+       "time": "lördag 2 juli",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "13",
+       "time": "lördag 9 juli",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "13",
+       "time": "lördag 9 juli",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "13",
+       "time": "lördag 9 juli",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "13",
+       "time": "lördag 9 juli",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "13",
+       "time": "lördag 9 juli",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "13",
+       "time": "lördag 9 juli",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "13",
+       "time": "lördag 9 juli",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "13",
+       "time": "lördag 9 juli",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "14",
+       "time": "lördag 16 juli",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "14",
+       "time": "lördag 16 juli",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "14",
+       "time": "lördag 16 juli",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "14",
+       "time": "lördag 16 juli",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "14",
+       "time": "lördag 16 juli",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "14",
+       "time": "lördag 16 juli",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "14",
+       "time": "lördag 16 juli",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "14",
+       "time": "lördag 16 juli",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "15",
+       "time": "lördag 23 juli",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "15",
+       "time": "lördag 23 juli",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "15",
+       "time": "lördag 23 juli",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "15",
+       "time": "lördag 23 juli",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "15",
+       "time": "lördag 23 juli",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "15",
+       "time": "lördag 23 juli",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "15",
+       "time": "lördag 23 juli",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "15",
+       "time": "lördag 23 juli",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "16",
+       "time": "torsdag 5 maj",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "16",
+       "time": "onsdag 11 maj",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "16",
+       "time": "lördag 30 juli",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "16",
+       "time": "lördag 30 juli",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "16",
+       "time": "lördag 30 juli",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "16",
+       "time": "lördag 30 juli",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "16",
+       "time": "lördag 30 juli",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "16",
+       "time": "lördag 30 juli",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "17",
+       "time": "lördag 6 augusti",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "17",
+       "time": "lördag 6 augusti",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "17",
+       "time": "lördag 6 augusti",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "17",
+       "time": "lördag 6 augusti",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "17",
+       "time": "lördag 6 augusti",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "17",
+       "time": "lördag 6 augusti",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "17",
+       "time": "lördag 6 augusti",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "17",
+       "time": "lördag 6 augusti",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "18",
+       "time": "lördag 13 augusti",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "18",
+       "time": "lördag 13 augusti",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "18",
+       "time": "lördag 13 augusti",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "18",
+       "time": "lördag 13 augusti",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "18",
+       "time": "lördag 13 augusti",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "18",
+       "time": "lördag 13 augusti",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "18",
+       "time": "lördag 13 augusti",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "18",
+       "time": "lördag 13 augusti",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "19",
+       "time": "lördag 20 augusti",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "19",
+       "time": "lördag 20 augusti",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "19",
+       "time": "lördag 20 augusti",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "19",
+       "time": "lördag 20 augusti",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "19",
+       "time": "lördag 20 augusti",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "19",
+       "time": "lördag 20 augusti",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "19",
+       "time": "lördag 20 augusti",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "19",
+       "time": "lördag 20 augusti",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "20",
+       "time": "lördag 27 augusti",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "20",
+       "time": "lördag 27 augusti",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "20",
+       "time": "lördag 27 augusti",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "20",
+       "time": "lördag 27 augusti",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "20",
+       "time": "lördag 27 augusti",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "20",
+       "time": "lördag 27 augusti",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "20",
+       "time": "lördag 27 augusti",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "20",
+       "time": "lördag 27 augusti",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "21",
+       "time": "lördag 3 september",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "21",
+       "time": "lördag 3 september",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "21",
+       "time": "lördag 3 september",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "21",
+       "time": "lördag 3 september",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "21",
+       "time": "lördag 3 september",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "21",
+       "time": "lördag 3 september",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "21",
+       "time": "lördag 3 september",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "21",
+       "time": "lördag 3 september",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "22",
+       "time": "lördag 10 september",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "22",
+       "time": "lördag 10 september",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "22",
+       "time": "lördag 10 september",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "22",
+       "time": "lördag 10 september",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "22",
+       "time": "lördag 10 september",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "22",
+       "time": "lördag 10 september",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "22",
+       "time": "lördag 10 september",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "22",
+       "time": "lördag 10 september",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "23",
+       "time": "lördag 17 september",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "23",
+       "time": "lördag 17 september",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "23",
+       "time": "lördag 17 september",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "23",
+       "time": "lördag 17 september",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "23",
+       "time": "lördag 17 september",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "23",
+       "time": "lördag 17 september",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "23",
+       "time": "lördag 17 september",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "23",
+       "time": "lördag 17 september",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "24",
+       "time": "lördag 1 oktober",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "24",
+       "time": "lördag 1 oktober",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "24",
+       "time": "lördag 1 oktober",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "24",
+       "time": "lördag 1 oktober",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "24",
+       "time": "lördag 1 oktober",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "24",
+       "time": "lördag 1 oktober",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "24",
+       "time": "lördag 1 oktober",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "24",
+       "time": "lördag 1 oktober",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "25",
+       "time": "lördag 8 oktober",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "25",
+       "time": "lördag 8 oktober",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "25",
+       "time": "lördag 8 oktober",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "25",
+       "time": "lördag 8 oktober",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "25",
+       "time": "lördag 8 oktober",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "25",
+       "time": "lördag 8 oktober",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "25",
+       "time": "lördag 8 oktober",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "25",
+       "time": "lördag 8 oktober",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "26",
+       "time": "lördag 15 oktober",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "26",
+       "time": "lördag 15 oktober",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "26",
+       "time": "lördag 15 oktober",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "26",
+       "time": "lördag 15 oktober",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "26",
+       "time": "lördag 15 oktober",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "26",
+       "time": "lördag 15 oktober",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "26",
+       "time": "lördag 15 oktober",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "26",
+       "time": "lördag 15 oktober",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "27",
+       "time": "tisdag 18 oktober",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "27",
+       "time": "tisdag 18 oktober",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "27",
+       "time": "tisdag 18 oktober",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "27",
+       "time": "tisdag 18 oktober",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "27",
+       "time": "tisdag 18 oktober",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "27",
+       "time": "tisdag 18 oktober",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "27",
+       "time": "tisdag 18 oktober",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "27",
+       "time": "tisdag 18 oktober",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "28",
+       "time": "lördag 22 oktober",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "28",
+       "time": "lördag 22 oktober",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "28",
+       "time": "lördag 22 oktober",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "28",
+       "time": "lördag 22 oktober",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "28",
+       "time": "lördag 22 oktober",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "28",
+       "time": "lördag 22 oktober",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "28",
+       "time": "lördag 22 oktober",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "28",
+       "time": "lördag 22 oktober",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "29",
+       "time": "lördag 29 oktober",
+       "arena": "Stora Valla",
+       "homeTeam": "Degerfors IF",
+       "awayTeam": "IFK Värnamo",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "29",
+       "time": "lördag 29 oktober",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Hammarby",
+       "awayTeam": "Kalmar FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "29",
+       "time": "lördag 29 oktober",
+       "arena": "Platinumcars Arena",
+       "homeTeam": "IFK Norrköping",
+       "awayTeam": "Djurgården",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "29",
+       "time": "lördag 29 oktober",
+       "arena": "Borås Arena",
+       "homeTeam": "IF Elfsborg",
+       "awayTeam": "Helsingborgs IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "29",
+       "time": "lördag 29 oktober",
+       "arena": "Gamla Ullevi",
+       "homeTeam": "IFK Göteborg",
+       "awayTeam": "BK Häcken",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "29",
+       "time": "lördag 29 oktober",
+       "arena": "Strandvallen A-plan",
+       "homeTeam": "Mjällby AIF",
+       "awayTeam": "AIK",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "29",
+       "time": "lördag 29 oktober",
+       "arena": "Varberg Energi Arena",
+       "homeTeam": "Varbergs BoIS",
+       "awayTeam": "Malmö FF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "29",
+       "time": "lördag 29 oktober",
+       "arena": "NP3 Arena",
+       "homeTeam": "GIF Sundsvall",
+       "awayTeam": "IK Sirius",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "30",
+       "time": "lördag 5 november",
+       "arena": "Bravida Arena",
+       "homeTeam": "BK Häcken",
+       "awayTeam": "IFK Norrköping",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "30",
+       "time": "lördag 5 november",
+       "arena": "Nationalarenan, Friends Arena",
+       "homeTeam": "AIK",
+       "awayTeam": "IF Elfsborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "30",
+       "time": "lördag 5 november",
+       "arena": "Olympia, Helsingborg",
+       "homeTeam": "Helsingborgs IF",
+       "awayTeam": "Hammarby",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "30",
+       "time": "lördag 5 november",
+       "arena": "Studenternas",
+       "homeTeam": "IK Sirius",
+       "awayTeam": "Varbergs BoIS",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "30",
+       "time": "lördag 5 november",
+       "arena": "Tele2 Arena",
+       "homeTeam": "Djurgården",
+       "awayTeam": "Mjällby AIF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "30",
+       "time": "lördag 5 november",
+       "arena": "Eleda Stadion",
+       "homeTeam": "Malmö FF",
+       "awayTeam": "Degerfors IF",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "30",
+       "time": "lördag 5 november",
+       "arena": "Guldfågeln Arena 1, Kalmar",
+       "homeTeam": "Kalmar FF",
+       "awayTeam": "GIF Sundsvall",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   },
+   {
+       "round": "30",
+       "time": "lördag 5 november",
+       "arena": "Finnvedsvallen 1, Värnamo",
+       "homeTeam": "IFK Värnamo",
+       "awayTeam": "IFK Göteborg",
+       "homeGoals": 0,
+       "awayGoals": 0,
+       "index": 0
+   }
+   ] 
+} 
