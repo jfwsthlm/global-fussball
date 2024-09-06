@@ -1,3 +1,224 @@
+table {
+    border-spacing: 0px;
+}
+
+th, td {
+    padding: 0px;
+}
+
 .center {
     text-align: center;
-  }
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    height: 40px;
+}
+
+.info {
+    font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+    font-size: 55px;
+}
+
+.roundSelector {
+    padding-top: 20px;
+    font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.arrow {
+    width: 100px;
+    margin-top: 5px;
+    padding-top: 2px;
+}
+
+.icon {
+    size: 40px;
+}
+
+.game {
+    font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(240, 240, 255);
+    background-color: rgb(240, 240, 255);
+    width: 650px;
+    padding: 4px 4px 4px 4px;
+}
+
+.gamenotplayed {
+    font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(210, 210, 225);
+    background-color: rgb(210, 210, 225);
+    width: 650px;
+    padding: 4px 4px 4px 4px;
+}
+
+.gamebackground {
+    display: flex;
+    justify-content: center;
+    /*border: 2px;*/
+    /*border-style: solid;*/
+    padding: 2px 2px 2px 2px;
+}
+
+.gamebackbackground {
+    width: 100%;
+    /*padding: 2px 2px 2px 2px;*/
+}
+
+.checkbox {
+    font-size: 10px;
+    width: 20px;
+    text-align: left;
+}
+
+.leftside {
+    width: 300px;
+    text-align: right;
+}
+
+.rightside {
+    width: 300px;
+}
+
+.seasontable {
+    width: 570px;
+    font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(230, 230, 230);
+    border-collapse: collapse; 
+}
+
+.seasontablebackground {
+    display: flex;
+    justify-content: center;
+    border: 2px;
+    /*border-style: solid;*/
+    width: 100%;
+    /*padding: 4px 4px 4px 4px;*/
+}
+
+.team {
+    text-align: left;
+    width: 180px;
+}
+
+.position {
+    text-align: right;
+    width: 10px;
+}
+
+.gameandpoint {
+    text-align: right;
+    width: 35px;
+    /*border: 1px solid;*/
+}
+
+.goalsmade {
+    text-align: right;
+    width: 40px;
+    margin-right: 0px;
+    /*border: 1px solid;*/
+}
+
+.separator {
+    margin-right: 0px;
+    margin-left: 0px;
+    /*border: 1px solid;*/
+}
+
+.goalsconceeded {
+    text-align: left;
+    width: 40px;
+    margin-left: 0px;
+    /*border: 1px solid;*/
+}
+
+div.seasontable {
+    line-height: 100%;
+}
+
+.position1 {
+    background-color: rgb(150, 255, 150);
+    border-bottom: 2pt solid black;
+}
+
+.position2 {
+    background-color: rgb(215, 255, 215);
+    border-bottom: 1pt solid black;
+}
+
+.position3 {
+    background-color: rgb(215, 255, 215);
+    border-bottom: 2pt solid black;
+}
+
+.position4 {
+    border-bottom: 1pt solid black;
+}
+
+.position5 {
+    border-bottom: 1pt solid black;
+}
+
+.position6 {
+    border-bottom: 1pt solid black;
+}
+
+.position7 {
+    border-bottom: 1pt solid black;
+}
+
+.position8 {
+    border-bottom: 1pt solid black;
+}
+
+.position9 {
+    border-bottom: 1pt solid black;
+}
+
+.position10 {
+    border-bottom: 1pt solid black;
+}
+
+.position11 {
+    border-bottom: 1pt solid black;
+}
+
+.position12 {
+    border-bottom: 1pt solid black;
+}
+
+.position13 {
+    border-bottom: 2pt solid black;
+}
+
+.position14 {
+    background-color: rgb(255, 215, 215);
+    border-bottom: 2pt solid black;
+}
+
+.position15 {
+    background-color: rgb(255, 150, 150);
+    border-bottom: 1pt solid black;
+}
+
+.position16 {
+    background-color: rgb(255, 150, 150);
+}
+
+.goalButton {
+    border-color: rgb(220, 220, 255);
+    background-color: rgb(240, 240, 255);
+}
