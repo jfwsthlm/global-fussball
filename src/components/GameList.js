@@ -1,13 +1,13 @@
 import React from 'react';
 import Game from './Game';
 
-const GameList = ({ games, resultChanged }) => {
+const GameList = ({ games, resultChanged, isPlayedChanged }) => {
     return (
-        <div>
+        <div class="gamebackbackground">
             {
                 games.map((game) => {
                     return (
-                        <Game game={game} resultChanged={resultChanged}/>
+                        <Game game={game} resultChanged={resultChanged} isPlayedChanged={isPlayedChanged}/>
                     );
                 })
             }

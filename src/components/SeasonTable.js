@@ -5,12 +5,16 @@ const SeasonTable = ({ tableMap }) => {
     var tableMapArray = Array.from(tableMap.entries());
     console.log("tableMapArray: " + tableMapArray);
     return (
-        <div class="center">
-            {
-                tableMapArray
-                    .sort((a, b) => sortTable(a, b))
-                    .map((name) => (<TableRow theteam={name} />))
-            }
+        <div class="seasontablebackground">
+            <div class="seasontable">
+                <table class="center seasontable">
+                {
+                    tableMapArray
+                        .sort((a, b) => sortTable(a, b))
+                        .map((name, index) => (<TableRow theteam={name} index={index + 1}/>))
+                }
+                </table>
+            </div>
         </div>
     );
 

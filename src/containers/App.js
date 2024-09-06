@@ -9,6 +9,7 @@ class App extends Component {
     constructor() {
         super()
         const gameMap = new Map();
+        console.log('asfasdf')
         season.games.forEach((game, index) =>
             {
                 if(!gameMap.has(game.homeTeam)) {
@@ -25,22 +26,46 @@ class App extends Component {
     }
 
     componentDidMount() {
-        this.updateTable();
+        this.updateTable(this.state.games);
+        this.getGamesFromApiAsync();
+    }
+
+    getGamesFromApiAsync = async () => {
+        await fetch("http://localhost:4000/season/allsvenskan/2024")
+        .then((res) => {
+            return res.json();
+          })
+          .then((data) => {
+            console.log(data);
+            //this.setState((prevState, props) => ({
+            //    games: data.games
+            //}));
+            this.updateTable(data.games);
+            console.log("" + this.state.tableMap.get("AIK"));
+            /*this.state = {
+                round: 1,
+                tableMap: gameMap,
+                games: data.games
+            }*/
+        });
+        //response.json().then((res) => console.log(res));
     }
 
     render() {
         const { round } = this.state;
-        const { tableMap } = this.state;
+        //const { tableMap } = this.state;
         const { games } = this.state;
         const filteredGames = games.filter(game => {
                 return parseInt(game.round) === this.state.round;
         })
+        console.log("render: " + games[6].homeTeam + ", " + games[6].homeGoals);
+        console.log("" + this.state.tableMap.get("AIK"));
         return (
                 <div className='tc'>
-                    <h1 class="center">global fussball</h1>
-                    <SeasonTable tableMap={tableMap}/>
+                    <h1 class="center info">Allsvenskan 2024</h1>
+                    <SeasonTable tableMap={this.state.tableMap}/>
                     <RoundSelector round={round} decreaseRound={this.decreaseRound} increaseRound={this.increaseRound} />
-                    <GameList games={filteredGames} resultChanged={this.resultChanged} />
+                    <GameList games={filteredGames} resultChanged={this.resultChanged} isPlayedChanged={this.isPlayedChanged}/>
                 </div>
             );
     }
@@ -64,62 +89,92 @@ class App extends Component {
     }
 
     resultChanged = (event, gameIndex, homeGoals, awayGoals) => {
-        season.games[gameIndex].homeGoals = homeGoals;
-        season.games[gameIndex].awayGoals = awayGoals;
-        this.setState((prevState, props) => ({
-            games: season.games
-        }));
-        this.updateTable();
-    }
-
-    updateTable = () => {
-        const gameMap = new Map();
         const { games } = this.state;
-        games.forEach((game, index) => {
-            console.log("index: " + index);
-            let homeTeamList = [0, 0, 0, 0, 0, 0, 0];
-            let awayTeamList = [0, 0, 0, 0, 0, 0, 0];
-            if(gameMap.has(game.homeTeam)) {
-                homeTeamList = gameMap.get(game.homeTeam)
-            }
-            if(gameMap.has(game.awayTeam)) {
-                awayTeamList = gameMap.get(game.awayTeam)
-            }
-            //games played, games won, games drawn, games lost, goals done, goals conceeded, points
-            homeTeamList[0] ++;
-            awayTeamList[0] ++;
-            
-            homeTeamList[4] += game.homeGoals;
-            awayTeamList[5] += game.homeGoals;
-
-            awayTeamList[4] += game.awayGoals;
-            homeTeamList[5] += game.awayGoals;
-
-            if(game.homeGoals > game.awayGoals) {
-                homeTeamList[6] += 3;
-                homeTeamList[1] ++;
-                awayTeamList[3] ++;
-            } else if(game.awayGoals > game.homeGoals) {
-                awayTeamList[6] += 3;
-                awayTeamList[1] ++;
-                homeTeamList[3] ++;
-            } else {
-                homeTeamList[6] += 1;
-                awayTeamList[6] += 1;
-                awayTeamList[2] ++;
-                homeTeamList[2] ++;
-            }
-
-            gameMap.set(game.homeTeam, homeTeamList)
-            gameMap.set(game.awayTeam, awayTeamList)
-            this.setState((prevState, props) => ({
-                tableMap: gameMap
-            }));
-
-        })
+        let updatedGames = games;
+        if (homeGoals < 0) {
+            homeGoals = 0;
+        }
+        if (awayGoals < 0) {
+            awayGoals = 0;
+        }
+        if (homeGoals > 9) {
+            homeGoals = 9;
+        }
+        if (awayGoals > 9) {
+            awayGoals = 9;
+        }
+        updatedGames[gameIndex].homeGoals = homeGoals;
+        updatedGames[gameIndex].awayGoals = awayGoals;
+        updatedGames[gameIndex].isPlayed = "yes";
+        this.setState((prevState, props) => ({
+            games: updatedGames
+        }));
+        this.updateTable(updatedGames);
     }
 
-}
+    isPlayedChanged = (event, gameIndex, isPlayed) => {
+        const { games } = this.state;
+        let updatedGames = games;
+        if (isPlayed ===  'yes' )
+            updatedGames[gameIndex].isPlayed = "no";
+        else
+            updatedGames[gameIndex].isPlayed = "yes";
+        this.setState((prevState, props) => ({
+            games: updatedGames
+        }));
+        this.updateTable(updatedGames);
+    }
 
+    updateTable = (fetchedGames) => {
+        const gameMap = new Map();
+        //const { games } = this.state;
+        fetchedGames.forEach((game, index) => {
+            //console.log("index: " + index);
+            if (game.isPlayed === "yes")
+            {
+                let homeTeamList = [0, 0, 0, 0, 0, 0, 0];
+                let awayTeamList = [0, 0, 0, 0, 0, 0, 0];
+                if(gameMap.has(game.homeTeam)) {
+                    homeTeamList = gameMap.get(game.homeTeam)
+                }
+                if(gameMap.has(game.awayTeam)) {
+                    awayTeamList = gameMap.get(game.awayTeam)
+                }
+                //games played, games won, games drawn, games lost, goals done, goals conceeded, points
+                homeTeamList[0] ++;
+                awayTeamList[0] ++;
+                
+                homeTeamList[4] += game.homeGoals;
+                awayTeamList[5] += game.homeGoals;
+    
+                awayTeamList[4] += game.awayGoals;
+                homeTeamList[5] += game.awayGoals;
+    
+                if(game.homeGoals > game.awayGoals) {
+                    homeTeamList[6] += 3;
+                    homeTeamList[1] ++;
+                    awayTeamList[3] ++;
+                } else if(game.awayGoals > game.homeGoals) {
+                    awayTeamList[6] += 3;
+                    awayTeamList[1] ++;
+                    homeTeamList[3] ++;
+                } else {
+                    homeTeamList[6] += 1;
+                    awayTeamList[6] += 1;
+                    awayTeamList[2] ++;
+                    homeTeamList[2] ++;
+                }
+    
+                gameMap.set(game.homeTeam, homeTeamList)
+                gameMap.set(game.awayTeam, awayTeamList)
+            }
+        })
+        this.setState((prevState, props) => ({
+            tableMap: gameMap,
+            games: fetchedGames
+        }));
+        console.log(fetchedGames);
+    }
+}
 
 export default App;

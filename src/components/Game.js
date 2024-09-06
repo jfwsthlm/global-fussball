@@ -1,16 +1,34 @@
 import React from 'react';
+import { FaChevronDown } from "react-icons/fa";
+import { FaChevronUp } from "react-icons/fa";
 
-const Game = ({ game, resultChanged }) => {
+const Game = ({ game, resultChanged, isPlayedChanged }) => {
+    var checked = "";
+    var gameClassName = "gamenotplayed";
+    if (game.isPlayed === 'yes') {
+        checked = "checked";
+        gameClassName = "game";
+    }
     return (
-        <div>
-            <div class="center">
-                <p>
-                    <button onClick={(e) => {resultChanged(e, game.index, game.homeGoals + 1, game.awayGoals);}}>+</button>
-                    <button onClick={(e) => {resultChanged(e, game.index, game.homeGoals - 1, game.awayGoals);}}>-</button>
-                    &nbsp;{game.homeTeam} {game.homeGoals}-{game.awayGoals} {game.awayTeam}&nbsp;
-                    <button onClick={(e) => {resultChanged(e, game.index, game.homeGoals, game.awayGoals + 1);}}>+</button>
-                    <button onClick={(e) => {resultChanged(e, game.index, game.homeGoals, game.awayGoals - 1);}}>-</button>
-                </p>
+        <div className='gamebackground'>
+            <div className={gameClassName}>
+                <div className='checkbox'>
+                    spelad
+                    <input type="checkbox" checked={checked} onClick={(e) => {isPlayedChanged(e, game.index, game.isPlayed);}}/>
+                </div>
+                <div className='leftside'>
+                    {game.homeTeam}&nbsp;
+                    <button class="goalButton" onClick={(e) => {resultChanged(e, game.index, game.homeGoals + 1, game.awayGoals);}}><FaChevronUp /></button>
+                    <button class="goalButton" onClick={(e) => {resultChanged(e, game.index, game.homeGoals - 1, game.awayGoals);}}><FaChevronDown /></button>
+                    &nbsp;{game.homeGoals}
+                </div>
+                <div className='middle'>-</div>
+                <div className='rightside'>
+                    {game.awayGoals}&nbsp;
+                    <button class="goalButton" onClick={(e) => {resultChanged(e, game.index, game.homeGoals, game.awayGoals + 1);}}><FaChevronUp /></button>
+                    <button class="goalButton" onClick={(e) => {resultChanged(e, game.index, game.homeGoals, game.awayGoals - 1);}}><FaChevronDown /></button>
+                    &nbsp;{game.awayTeam}
+                </div>
             </div>
         </div>
     );
