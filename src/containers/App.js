@@ -9,7 +9,6 @@ class App extends Component {
     constructor() {
         super()
         const gameMap = new Map();
-        console.log('asfasdf')
         season.games.forEach((game, index) =>
             {
                 if(!gameMap.has(game.homeTeam)) {
@@ -18,6 +17,7 @@ class App extends Component {
                 }
                 season.games[index].index = index;
             })
+        season.games.sort((a, b) => sortGames(a, b));
         this.state = {
             round: 1,
             tableMap: gameMap,
@@ -31,7 +31,8 @@ class App extends Component {
     }
 
     getGamesFromApiAsync = async () => {
-        await fetch("http://localhost:4000/season/allsvenskan/2024")
+        /*await fetch("http://localhost:4000/season/allsvenskan/2024")*/
+        await fetch("https://global-fussball-api-0fec6a7cac42.herokuapp.com/season/allsvenskan/2024")
         .then((res) => {
             return res.json();
           })
@@ -41,7 +42,6 @@ class App extends Component {
             //    games: data.games
             //}));
             this.updateTable(data.games);
-            console.log("" + this.state.tableMap.get("AIK"));
             /*this.state = {
                 round: 1,
                 tableMap: gameMap,
@@ -58,8 +58,6 @@ class App extends Component {
         const filteredGames = games.filter(game => {
                 return parseInt(game.round) === this.state.round;
         })
-        console.log("render: " + games[6].homeTeam + ", " + games[6].homeGoals);
-        console.log("" + this.state.tableMap.get("AIK"));
         return (
                 <div className='tc'>
                     <h1 class="center info">Allsvenskan 2024</h1>
@@ -169,12 +167,17 @@ class App extends Component {
                 gameMap.set(game.awayTeam, awayTeamList)
             }
         })
+        fetchedGames.sort((a, b) => sortGames(a, b))
         this.setState((prevState, props) => ({
             tableMap: gameMap,
             games: fetchedGames
         }));
         console.log(fetchedGames);
     }
+}
+
+function sortGames(a, b) {
+    return a.index > b.index ? 1 : -1;
 }
 
 export default App;
