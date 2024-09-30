@@ -126,6 +126,7 @@ class App extends Component {
     updateTable = (fetchedGames) => {
         const gameMap = new Map();
         //const { games } = this.state;
+        var roundMap = new Map();
         fetchedGames.forEach((game, index) => {
             //console.log("index: " + index);
             if (game.isPlayed === "yes")
@@ -165,10 +166,21 @@ class App extends Component {
     
                 gameMap.set(game.homeTeam, homeTeamList)
                 gameMap.set(game.awayTeam, awayTeamList)
+            } else {
+                var gamesNotPlayedInRound = roundMap.get(game.round);
+                if (!gamesNotPlayedInRound) {
+                    gamesNotPlayedInRound = 1;
+                } else {
+                    gamesNotPlayedInRound = gamesNotPlayedInRound + 1;
+                }
+                roundMap.set(game.round, gamesNotPlayedInRound);
             }
         })
+        
+        const roundToView = getRoundWithMostUnplayedGames(roundMap);
         fetchedGames.sort((a, b) => sortGames(a, b))
         this.setState((prevState, props) => ({
+            round: roundToView,
             tableMap: gameMap,
             games: fetchedGames
         }));
@@ -178,6 +190,18 @@ class App extends Component {
 
 function sortGames(a, b) {
     return a.index > b.index ? 1 : -1;
+}
+
+function getRoundWithMostUnplayedGames(roundMap) {
+    var roundToReturn = 1;
+    var noOfUnplayedGamesInRoundToReturn = 0;
+    for (let [key, value] of roundMap) {
+        if (value > noOfUnplayedGamesInRoundToReturn) {
+            noOfUnplayedGamesInRoundToReturn = value;
+            roundToReturn = key;
+        }
+    }
+    return roundToReturn;
 }
 
 export default App;

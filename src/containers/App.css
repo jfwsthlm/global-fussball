@@ -11,12 +11,12 @@ th, td {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
-    height: 40px;
 }
 
 .info {
     font-family: "Arial Narrow Bold", Helvetica, sans-serif;
-    font-size: 55px;
+    font-size: 45px;
+    height: 40px;
 }
 
 .roundSelector {
@@ -24,6 +24,7 @@ th, td {
     font-family: "Arial Narrow Bold", Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
+    height: 40px;
 }
 
 .arrow {
@@ -221,4 +222,88 @@ div.seasontable {
 .goalButton {
     border-color: rgb(220, 220, 255);
     background-color: rgb(240, 240, 255);
+}
+
+@media only screen and (max-width: 768px) {
+    .info {
+        font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+        font-size: 25px;
+        height: 20px;
+    }
+
+    .roundSelector {
+        padding-top: 20px;
+        font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        height: 40px;
+    }
+
+    .arrow {
+        width: 80px;
+        margin-top: 5px;
+        padding-top: 2px;
+    }
+
+    .seasontable {
+        width: 320px;
+        font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+        font-size: 12px;
+        background-color: rgb(230, 230, 230);
+        border-collapse: collapse; 
+    }
+
+    .game {
+        font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        border: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: rgb(240, 240, 255);
+        background-color: rgb(240, 240, 255);
+        width: 95%;
+        padding: 4px 4px 2px 4px;
+    }
+
+    .gamenotplayed {
+        font-family: "Arial Narrow Bold", Helvetica, sans-serif;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        border: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: rgb(210, 210, 225);
+        background-color: rgb(210, 210, 225);
+        width: 95%;
+        padding: 4px 4px 2px 4px;
+    }
+
+    .checkbox {
+        font-size: 8px;
+        width: 10px;
+        text-align: left;
+    }
+
+    input.check {
+        width: 8px;
+        height: 8px;
+    }
+
+    .leftside {
+        width: 170px;
+        text-align: right;
+    }
+    
+    .rightside {
+        width: 150px;
+    }
+
+    .goalButton {
+        border-color: rgb(220, 220, 255);
+        background-color: rgb(240, 240, 255);
+        font-size: 6px;
+    }
 }
