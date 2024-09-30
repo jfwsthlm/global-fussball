@@ -200,11 +200,11 @@ function sortGames(a, b) {
 }
 
 function getRoundWithMostUnplayedGames(roundMap) {
-    var roundToReturn = 1;
+    var roundToReturn = 30;
     var noOfUnplayedGamesInRoundToReturn = 0;
     for (let [key, value] of roundMap) {
         console.log("Round: " + key + ", noOfUnplayedGames: " + value)
-        if (value > noOfUnplayedGamesInRoundToReturn) {
+        if (value >= noOfUnplayedGamesInRoundToReturn && roundToReturn > key) {
             noOfUnplayedGamesInRoundToReturn = value;
             roundToReturn = key;
         }
