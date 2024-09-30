@@ -19,14 +19,14 @@ class App extends Component {
             })
         season.games.sort((a, b) => sortGames(a, b));
         this.state = {
-            round: 1,
+            round: 0,
             tableMap: gameMap,
             games: season.games
         }
     }
 
     componentDidMount() {
-        this.updateTable(this.state.games);
+        this.updateTable(this.state.games, false);
         this.getGamesFromApiAsync();
     }
 
@@ -41,7 +41,7 @@ class App extends Component {
             //this.setState((prevState, props) => ({
             //    games: data.games
             //}));
-            this.updateTable(data.games);
+            this.updateTable(data.games, true);
             /*this.state = {
                 round: 1,
                 tableMap: gameMap,
@@ -107,7 +107,7 @@ class App extends Component {
         this.setState((prevState, props) => ({
             games: updatedGames
         }));
-        this.updateTable(updatedGames);
+        this.updateTable(updatedGames, false);
     }
 
     isPlayedChanged = (event, gameIndex, isPlayed) => {
@@ -120,10 +120,11 @@ class App extends Component {
         this.setState((prevState, props) => ({
             games: updatedGames
         }));
-        this.updateTable(updatedGames);
+        this.updateTable(updatedGames, false);
     }
 
-    updateTable = (fetchedGames) => {
+    updateTable = (fetchedGames, setRound) => {
+        const { round } = this.state;
         const gameMap = new Map();
         //const { games } = this.state;
         var roundMap = new Map();
@@ -177,7 +178,13 @@ class App extends Component {
             }
         })
         
-        const roundToView = getRoundWithMostUnplayedGames(roundMap);
+        var roundToView = round;
+        console.log("roundToView: " + roundToView);
+        if (setRound === true) {
+            roundToView = getRoundWithMostUnplayedGames(roundMap);
+            //roundToView = 7;
+        }
+        console.log("Looking at round: " + roundToView);
         fetchedGames.sort((a, b) => sortGames(a, b))
         this.setState((prevState, props) => ({
             round: roundToView,
@@ -196,12 +203,13 @@ function getRoundWithMostUnplayedGames(roundMap) {
     var roundToReturn = 1;
     var noOfUnplayedGamesInRoundToReturn = 0;
     for (let [key, value] of roundMap) {
+        console.log("Round: " + key + ", noOfUnplayedGames: " + value)
         if (value > noOfUnplayedGamesInRoundToReturn) {
             noOfUnplayedGamesInRoundToReturn = value;
             roundToReturn = key;
         }
     }
-    return roundToReturn;
+    return parseInt(roundToReturn);
 }
 
 export default App;
