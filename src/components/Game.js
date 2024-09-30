@@ -14,7 +14,7 @@ const Game = ({ game, resultChanged, isPlayedChanged }) => {
             <div className={gameClassName}>
                 <div className='checkbox'>
                     spelad
-                    <input type="checkbox" checked={checked} onClick={(e) => {isPlayedChanged(e, game.index, game.isPlayed);}}/>
+                    <input type="checkbox" className="check" checked={checked} onClick={(e) => {isPlayedChanged(e, game.index, game.isPlayed);}}/>
                 </div>
                 <div className='leftside'>
                     {game.homeTeam}&nbsp;
