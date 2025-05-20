@@ -3,7 +3,7 @@ import TableRow from '../components/TableRow';
 
 const SeasonTable = ({ tableMap }) => {
     var tableMapArray = Array.from(tableMap.entries());
-    console.log("tableMapArray: " + tableMapArray);
+    //console.log("tableMapArray: " + tableMapArray);
     return (
         <div class="seasontablebackground">
             <div class="seasontable">

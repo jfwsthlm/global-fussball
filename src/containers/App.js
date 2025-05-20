@@ -4,6 +4,7 @@ import GameList from '../components/GameList';
 import RoundSelector from '../components/RoundSelector';
 import SeasonTable from '../components/SeasonTable';
 import season from './matcher.json';
+import SeasonSelector from '../components/SeasonSelector';
 
 class App extends Component {
     constructor() {
@@ -21,23 +22,26 @@ class App extends Component {
         this.state = {
             round: 0,
             tableMap: gameMap,
-            games: season.games
+            games: season.games,
+            seasonId: 2
         }
     }
 
     componentDidMount() {
         this.updateTable(this.state.games, false);
-        this.getGamesFromApiAsync();
+        this.getGamesFromApiAsync(this.state.seasonId);
     }
 
-    getGamesFromApiAsync = async () => {
+    getGamesFromApiAsync = async (theSeasonId) => {
+        //const { seasonId } = this.state;
         /*await fetch("http://localhost:4000/season/allsvenskan/2024")*/
-        await fetch("https://global-fussball-api-0fec6a7cac42.herokuapp.com/season/allsvenskan/2024")
+        await fetch("http://localhost:4000/season/" + theSeasonId)
+        /*await fetch("https://global-fussball-api-0fec6a7cac42.herokuapp.com/season/allsvenskan/2024")*/
         .then((res) => {
             return res.json();
           })
           .then((data) => {
-            console.log(data);
+            //console.log(data);
             //this.setState((prevState, props) => ({
             //    games: data.games
             //}));
@@ -55,15 +59,17 @@ class App extends Component {
         const { round } = this.state;
         //const { tableMap } = this.state;
         const { games } = this.state;
+        //const { seasonId } = this.state;
+        //console.log("In render: " + seasonId)
         const filteredGames = games.filter(game => {
                 return parseInt(game.round) === this.state.round;
         })
         return (
                 <div className='tc'>
-                    <h1 class="center info">Allsvenskan 2024</h1>
+                    <SeasonSelector seasonId={this.state.seasonId} setSeason={this.setSeason}/>
                     <SeasonTable tableMap={this.state.tableMap}/>
                     <RoundSelector round={round} decreaseRound={this.decreaseRound} increaseRound={this.increaseRound} />
-                    <GameList games={filteredGames} resultChanged={this.resultChanged} isPlayedChanged={this.isPlayedChanged}/>
+                    <GameList games={filteredGames} resultChanged={this.resultChanged} isPlayedChanged={this.isPlayedChanged} saveResult={this.saveResult} />
                 </div>
             );
     }
@@ -83,6 +89,58 @@ class App extends Component {
             this.setState((prevState, props) => ({
                 round: prevState.round + 1
             }));
+        }
+    }
+
+    setSeason = (newSeasonId) => {
+        const { seasonId } = this.state;
+        console.log("newSeasonId: " + newSeasonId);
+        console.log("oldSeasonId: " + seasonId);
+        if (seasonId !== newSeasonId) {
+            this.setState((prevState, props) => ({
+                seasonId: newSeasonId
+            }));
+            this.getGamesFromApiAsync(newSeasonId);
+        }
+    }
+
+    saveResult = (event, gameIndex, homeGoals, awayGoals, isPlayed) => {
+        if (event.ctrlKey) {
+            const { games } = this.state;
+            let updatedGames = games;
+            if (homeGoals < 0) {
+                homeGoals = 0;
+            }
+            if (awayGoals < 0) {
+                awayGoals = 0;
+            }
+            if (homeGoals > 9) {
+                homeGoals = 9;
+            }
+            if (awayGoals > 9) {
+                awayGoals = 9;
+            }
+            updatedGames[gameIndex].homeGoals = homeGoals;
+            updatedGames[gameIndex].awayGoals = awayGoals;
+            updatedGames[gameIndex].isPlayed = isPlayed;
+            this.setState((prevState, props) => ({
+                games: updatedGames
+            }));
+            this.updateTable(updatedGames, false);
+            console.log("Saving game " + gameIndex);
+            
+            fetch('http://localhost:4000/update', {
+                method: 'put',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    homeTeam: updatedGames[gameIndex].homeTeam,
+                    awayTeam: updatedGames[gameIndex].awayTeam,
+                    homeGoals: updatedGames[gameIndex].homeGoals,
+                    awayGoals: updatedGames[gameIndex].awayGoals,
+                    isPlayed: updatedGames[gameIndex].isPlayed,
+                    seasonId: this.state.seasonId
+                })
+            }).then(response => response.json())
         }
     }
 
@@ -126,9 +184,14 @@ class App extends Component {
     updateTable = (fetchedGames, setRound) => {
         const { round } = this.state;
         const gameMap = new Map();
+        //const { gameMap } = this.state;
         //const { games } = this.state;
         var roundMap = new Map();
         fetchedGames.forEach((game, index) => {
+            if(!gameMap.has(game.homeTeam)) {
+                //games played, games won, games drawn, games lost, goals done, goals conceeded, points
+                gameMap.set(game.homeTeam, [0, 0, 0, 0, 0, 0, 0])
+            }
             //console.log("index: " + index);
             if (game.isPlayed === "yes")
             {
@@ -164,7 +227,6 @@ class App extends Component {
                     awayTeamList[2] ++;
                     homeTeamList[2] ++;
                 }
-    
                 gameMap.set(game.homeTeam, homeTeamList)
                 gameMap.set(game.awayTeam, awayTeamList)
             } else {
@@ -179,19 +241,19 @@ class App extends Component {
         })
         
         var roundToView = round;
-        console.log("roundToView: " + roundToView);
+        //console.log("roundToView: " + roundToView);
         if (setRound === true) {
             roundToView = getRoundWithMostUnplayedGames(roundMap);
             //roundToView = 7;
         }
-        console.log("Looking at round: " + roundToView);
+        //console.log("Looking at round: " + roundToView);
         fetchedGames.sort((a, b) => sortGames(a, b))
         this.setState((prevState, props) => ({
             round: roundToView,
             tableMap: gameMap,
             games: fetchedGames
         }));
-        console.log(fetchedGames);
+        //console.log(fetchedGames);
     }
 }
 
@@ -203,7 +265,7 @@ function getRoundWithMostUnplayedGames(roundMap) {
     var roundToReturn = 30;
     var noOfUnplayedGamesInRoundToReturn = 0;
     for (let [key, value] of roundMap) {
-        console.log("Round: " + key + ", noOfUnplayedGames: " + value)
+        //console.log("Round: " + key + ", noOfUnplayedGames: " + value)
         if (value >= noOfUnplayedGamesInRoundToReturn && roundToReturn > key) {
             noOfUnplayedGamesInRoundToReturn = value;
             roundToReturn = key;
