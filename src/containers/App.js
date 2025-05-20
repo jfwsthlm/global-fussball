@@ -33,34 +33,19 @@ class App extends Component {
     }
 
     getGamesFromApiAsync = async (theSeasonId) => {
-        //const { seasonId } = this.state;
-        /*await fetch("http://localhost:4000/season/allsvenskan/2024")*/
         /*await fetch("http://localhost:4000/season/" + theSeasonId)*/
         await fetch("https://global-fussball-api-0fec6a7cac42.herokuapp.com/season/" + theSeasonId)
         .then((res) => {
             return res.json();
           })
           .then((data) => {
-            //console.log(data);
-            //this.setState((prevState, props) => ({
-            //    games: data.games
-            //}));
             this.updateTable(data.games, true);
-            /*this.state = {
-                round: 1,
-                tableMap: gameMap,
-                games: data.games
-            }*/
         });
-        //response.json().then((res) => console.log(res));
     }
 
     render() {
         const { round } = this.state;
-        //const { tableMap } = this.state;
         const { games } = this.state;
-        //const { seasonId } = this.state;
-        //console.log("In render: " + seasonId)
         const filteredGames = games.filter(game => {
                 return parseInt(game.round) === this.state.round;
         })
@@ -185,15 +170,12 @@ class App extends Component {
     updateTable = (fetchedGames, setRound) => {
         const { round } = this.state;
         const gameMap = new Map();
-        //const { gameMap } = this.state;
-        //const { games } = this.state;
         var roundMap = new Map();
         fetchedGames.forEach((game, index) => {
             if(!gameMap.has(game.homeTeam)) {
                 //games played, games won, games drawn, games lost, goals done, goals conceeded, points
                 gameMap.set(game.homeTeam, [0, 0, 0, 0, 0, 0, 0])
             }
-            //console.log("index: " + index);
             if (game.isPlayed === "yes")
             {
                 let homeTeamList = [0, 0, 0, 0, 0, 0, 0];
@@ -242,19 +224,15 @@ class App extends Component {
         })
         
         var roundToView = round;
-        //console.log("roundToView: " + roundToView);
         if (setRound === true) {
             roundToView = getRoundWithMostUnplayedGames(roundMap);
-            //roundToView = 7;
         }
-        //console.log("Looking at round: " + roundToView);
         fetchedGames.sort((a, b) => sortGames(a, b))
         this.setState((prevState, props) => ({
             round: roundToView,
             tableMap: gameMap,
             games: fetchedGames
         }));
-        //console.log(fetchedGames);
     }
 }
 
@@ -266,7 +244,6 @@ function getRoundWithMostUnplayedGames(roundMap) {
     var roundToReturn = 30;
     var noOfUnplayedGamesInRoundToReturn = 0;
     for (let [key, value] of roundMap) {
-        //console.log("Round: " + key + ", noOfUnplayedGames: " + value)
         if (value >= noOfUnplayedGamesInRoundToReturn && roundToReturn > key) {
             noOfUnplayedGamesInRoundToReturn = value;
             roundToReturn = key;
