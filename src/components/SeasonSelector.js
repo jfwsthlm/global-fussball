@@ -17,13 +17,11 @@ const SeasonSelector = ({ seasonId, setSeason }) => {
     };
 
     const handleMenuOne = () => {
-        // do something
         setSeason(1);
         setOpen(false);
       };
     
       const handleMenuTwo = () => {
-        // do something
         setSeason(2);
         setOpen(false);
       };
