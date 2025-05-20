@@ -35,8 +35,8 @@ class App extends Component {
     getGamesFromApiAsync = async (theSeasonId) => {
         //const { seasonId } = this.state;
         /*await fetch("http://localhost:4000/season/allsvenskan/2024")*/
-        await fetch("http://localhost:4000/season/" + theSeasonId)
-        /*await fetch("https://global-fussball-api-0fec6a7cac42.herokuapp.com/season/allsvenskan/2024")*/
+        /*await fetch("http://localhost:4000/season/" + theSeasonId)*/
+        await fetch("https://global-fussball-api-0fec6a7cac42.herokuapp.com/season/" + theSeasonId)
         .then((res) => {
             return res.json();
           })
@@ -129,7 +129,8 @@ class App extends Component {
             this.updateTable(updatedGames, false);
             console.log("Saving game " + gameIndex);
             
-            fetch('http://localhost:4000/update', {
+            /*fetch('http://localhost:4000/update', {*/
+            fetch('https://global-fussball-api-0fec6a7cac42.herokuapp.com/update', {
                 method: 'put',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
