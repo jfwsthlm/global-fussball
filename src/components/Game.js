@@ -2,7 +2,7 @@ import React from 'react';
 import { FaChevronDown } from "react-icons/fa";
 import { FaChevronUp } from "react-icons/fa";
 
-const Game = ({ game, resultChanged, isPlayedChanged }) => {
+const Game = ({ game, resultChanged, isPlayedChanged, saveResult }) => {
     var checked = "";
     var gameClassName = "gamenotplayed";
     if (game.isPlayed === 'yes') {
@@ -10,7 +10,7 @@ const Game = ({ game, resultChanged, isPlayedChanged }) => {
         gameClassName = "game";
     }
     return (
-        <div className='gamebackground'>
+        <div className='gamebackground' onClick={(e) => {saveResult(e, game.index, game.homeGoals, game.awayGoals, game.isPlayed);}}>
             <div className={gameClassName}>
                 <div className='checkbox'>
                     spelad
